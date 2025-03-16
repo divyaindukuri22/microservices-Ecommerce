@@ -39,14 +39,14 @@ cd customer-service
 ```
 
 ## API Endpoints
-### **Product Service** (Port: `8081`)
+### **Product Service** (Port: `5555`)
 - **POST** `/api/products` → Add a new product
 - **GET** `/api/products` → Get all products
 - **GET** `/api/products/{id}` → Get product by ID
 - **PUT** `/api/products/{id}` → Update product
 - **DELETE** `/api/products/{id}` → Delete product
 
-### **Customer Service** (Port: `8082`)
+### **Customer Service** (Port: `4444`)
 - **POST** `/api/customers` → Add a new customer
 - **GET** `/api/customers` → Get all customers
 - **GET** `/api/customers/{id}` → Get customer by ID
